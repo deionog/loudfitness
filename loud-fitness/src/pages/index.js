@@ -1,7 +1,10 @@
 import React from "react"
+import { Link } from "gatsby"
+import Header from "../components/header"
 
 export default () => <div style={{color:'purple'}}>
-        <h1>Loud Fitness</h1>
+        <Link to="/contact/">Contact</Link>
+        <Header headerText="Loud Fitness"/>
         <p>Your Transformation awaits</p>
 
     </div>
